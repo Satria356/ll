@@ -51,10 +51,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Elaina-MultiDevice',
+					description: 'Masa-Bot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: "https://nekopoi.care",					
 				}
 			}
 		}
@@ -273,7 +273,7 @@ function ucapan() {
 		res = "Selamat Dini hari 🌌"
 	}
 	if(time >= 4) {
-		res = "Selamat pagi ⛅"
+		res = "Selamat pagi �?"
 	}
 	if(time > 10) {
 		res = "Selamat siang 🌅"
